@@ -1,1 +1,0 @@
-/Users/trick/Desktop/github/rust/helloword/target/release/helloword: /Users/trick/Desktop/github/rust/helloword/src/hello_word.rs /Users/trick/Desktop/github/rust/helloword/src/lib.rs /Users/trick/Desktop/github/rust/helloword/src/main.rs
