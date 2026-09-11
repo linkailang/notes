@@ -1,7 +1,9 @@
 mod Vecc;
 mod stringg;
+mod array;
 use crate::Vecc::test;
 use crate::stringg::string_out;
+use crate::array::array;
 fn main() {
     
     // let a: u32 =1;
@@ -14,6 +16,7 @@ fn main() {
     let a = 11;
     println!("{}", a);
     string_out();
+    array();
     
     
 }
