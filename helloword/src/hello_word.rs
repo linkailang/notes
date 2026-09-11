@@ -15,8 +15,8 @@ pub fn greet_words(){
     }
     
 }
-/// for region in regions { ... }      // 等价于 regions.into_iter() → 消费集合，获取所有权
-/// for region in &regions { ... }     // 等价于 regions.iter()       → 借用，得到 &T
-/// for region in &mut regions { ... } // 等价于 regions.iter_mut()   → 可变借用，得到 &mut T
+// for region in regions { ... }      // 等价于 regions.into_iter() → 消费集合，获取所有权
+// for region in &regions { ... }     // 等价于 regions.iter()       → 借用，得到 &T
+// for region in &mut regions { ... } // 等价于 regions.iter_mut()   → 可变借用，得到 &mut T
 
  
