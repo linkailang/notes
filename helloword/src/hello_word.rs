@@ -19,4 +19,14 @@ pub fn greet_words(){
 // for region in &regions { ... }     // 等价于 regions.iter()       → 借用，得到 &T
 // for region in &mut regions { ... } // 等价于 regions.iter_mut()   → 可变借用，得到 &mut T
 
- 
+fn foo(s:String)->String{
+    println!("{s}");
+    s
+    //s 没有表达式，作为返回值
+    // 相当于return s;
+}
+fn main(){
+    let s1 = String::from("I am a superman.");
+    let s1 = foo(s1);
+    println!("{s1}");
+}
